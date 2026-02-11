@@ -7,3 +7,6 @@ def clean_visit_data(df, silver_path):
         .dropna() \
         .withColumn("visit_date", to_date(col("visit_date"))) \
         .withColumnRenamed("cost", "visit_cost")
+
+    cleaned_df.write.mode("overwrite").parquet(silver_path)
+    return cleaned_df
