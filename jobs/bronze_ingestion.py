@@ -8,3 +8,6 @@ def ingest_patient_visits(spark, input_file, bronze_path):
         header=True,
         schema=visit_schema()
     )
+
+    df.write.mode("overwrite").parquet(bronze_path)
+    return df
