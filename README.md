@@ -138,3 +138,27 @@ output/silver/
 ```
 
 ---
+
+### 🥇 Gold Layer: Star Schema Modeling
+
+**File:** `jobs/gold_star_schema.py`
+
+Creates analytics-ready tables:
+
+#### Dimension Tables
+- `dim_patient`
+- `dim_doctor`
+
+#### Fact Table
+- `fact_visits`
+
+Output:
+
+```
+output/gold/
+   ├── dim_patient/
+   ├── dim_doctor/
+   └── fact_visits/
+```
+
+---
