@@ -216,3 +216,14 @@ output/
 ```
 
 ---
+
+## 📊 Example Business Questions Answered
+
+This pipeline supports analytics such as:
+
+- Which department generates the highest revenue?
+- What are the most frequent diagnoses?
+- Which hospital cities have the highest treatment costs?
+- Who are the top doctors by number of visits? (future enhancement)
+
+---
