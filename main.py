@@ -25,6 +25,9 @@ def main():
     print("\nTop Diagnosis Cases:")
     top_diagnosis(silver_df).show()
 
+    print("\nCity-wise Treatment Cost:")
+    city_wise_cost(silver_df).show()
+
     spark.stop()
 
 
