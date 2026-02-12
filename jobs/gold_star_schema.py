@@ -18,4 +18,6 @@ def build_star_schema(df, gold_path):
         "hospital_city"
     )
 
+    dim_patient.write.mode("overwrite").parquet(gold_path + "/dim_patient")
+
     return fact_visits
