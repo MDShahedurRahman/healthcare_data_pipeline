@@ -239,3 +239,27 @@ This pipeline supports analytics such as:
 - Git Commit Discipline for Data Projects
 
 ---
+
+## 📌 Future Enhancements
+
+- Integrate AWS S3 as storage backend
+- Load Gold tables into Redshift or Snowflake
+- Add orchestration using Apache Airflow
+- Implement incremental processing (CDC)
+- Add dashboard visualization with Power BI or Tableau
+
+---
+
+## 👨‍💻 Author
+
+**Md Shahedur Rahman**  
+Master’s in Computer Science (NYU)  
+Data Engineering | PySpark | SQL | Cloud Pipelines  
+
+---
+
+## ⭐ Project Goal
+
+This project demonstrates how healthcare data can be transformed into analytics-ready datasets using modern Data Engineering best practices.
+
+Feel free to fork and expand into a full cloud-based healthcare analytics platform.
