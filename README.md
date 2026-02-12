@@ -68,4 +68,20 @@ healthcare_data_pipeline/
     └── reports/
 ```
 
+## 📌 Data Source
+
+The pipeline uses a sample dataset:
+
+`data/patient_visits.csv`
+
+Example:
+
+```csv
+visit_id,patient_id,patient_name,doctor_id,doctor_name,department,diagnosis,cost,visit_date,hospital_city
+201,P001,John Smith,D101,Dr. Lee,Cardiology,Heart Checkup,500,2025-01-05,New York
+202,P002,Amina Rahman,D102,Dr. Kim,Neurology,Migraine,300,2025-01-07,Boston
+203,P003,Sarah Lee,D101,Dr. Lee,Cardiology,ECG Test,700,2025-01-10,New York
+```
+
+---
 ---
