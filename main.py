@@ -19,6 +19,9 @@ def main():
     print("Running Gold Layer...")
     build_star_schema(silver_df, GOLD_PATH)
 
+    print("\nRevenue by Department:")
+    revenue_by_department(silver_df).show()
+
     spark.stop()
 
 
