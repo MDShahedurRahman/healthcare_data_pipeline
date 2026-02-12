@@ -119,3 +119,22 @@ output/bronze/
 ```
 
 ---
+
+### 🥈 Silver Layer: Data Cleaning & Transformation
+
+**File:** `jobs/silver_cleaning.py`
+
+Transformations applied:
+
+- Remove duplicate visit records
+- Handle missing values
+- Convert visit_date into proper DateType
+- Rename cost field into visit_cost for clarity
+
+Output:
+
+```
+output/silver/
+```
+
+---
