@@ -7,3 +7,17 @@ This project processes raw hospital patient visit records from CSV, cleans and t
 It is designed as a **portfolio-quality Data Engineering project** demonstrating real-world ETL workflows, scalable data lake design, and analytics-ready outputs.
 
 ---
+
+## 🚀 Project Overview
+
+Healthcare organizations generate large volumes of patient visit data every day.  
+To support reporting, analytics, and decision-making, raw transactional records must be transformed into clean, structured datasets.
+
+This pipeline performs:
+
+- Raw data ingestion into a Data Lake (Bronze)
+- Data cleaning and enrichment (Silver)
+- Star Schema modeling for analytics (Gold)
+- KPI queries for hospital insights
+
+---
