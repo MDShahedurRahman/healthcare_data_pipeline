@@ -227,3 +227,15 @@ This pipeline supports analytics such as:
 - Who are the top doctors by number of visits? (future enhancement)
 
 ---
+
+## 🧠 Concepts Demonstrated
+
+- End-to-End ETL Pipeline Development
+- Spark DataFrame Transformations
+- Parquet-based Data Lake Storage
+- Medallion Architecture (Bronze/Silver/Gold)
+- Star Schema Data Modeling
+- Healthcare KPI Analytics Queries
+- Git Commit Discipline for Data Projects
+
+---
