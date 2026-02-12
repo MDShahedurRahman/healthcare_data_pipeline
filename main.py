@@ -22,6 +22,9 @@ def main():
     print("\nRevenue by Department:")
     revenue_by_department(silver_df).show()
 
+    print("\nTop Diagnosis Cases:")
+    top_diagnosis(silver_df).show()
+
     spark.stop()
 
 
