@@ -202,3 +202,17 @@ python main.py
 ```
 
 ---
+
+### 3. Output Layers Generated
+
+After execution:
+
+```
+output/
+   bronze/
+   silver/
+   gold/
+   reports/
+```
+
+---
