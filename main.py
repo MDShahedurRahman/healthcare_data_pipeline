@@ -10,6 +10,9 @@ from jobs.business_queries import revenue_by_department, top_diagnosis, city_wis
 def main():
     spark = get_spark_session()
 
+    print("Running Bronze Layer...")
+    bronze_df = ingest_patient_visits(spark, RAW_FILE, BRONZE_PATH)
+
     spark.stop()
 
 
