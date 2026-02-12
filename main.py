@@ -16,6 +16,9 @@ def main():
     print("Running Silver Layer...")
     silver_df = clean_visit_data(bronze_df, SILVER_PATH)
 
+    print("Running Gold Layer...")
+    build_star_schema(silver_df, GOLD_PATH)
+
     spark.stop()
 
 
