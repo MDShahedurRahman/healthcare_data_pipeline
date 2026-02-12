@@ -68,6 +68,8 @@ healthcare_data_pipeline/
     └── reports/
 ```
 
+---
+
 ## 📌 Data Source
 
 The pipeline uses a sample dataset:
@@ -83,6 +85,8 @@ visit_id,patient_id,patient_name,doctor_id,doctor_name,department,diagnosis,cost
 203,P003,Sarah Lee,D101,Dr. Lee,Cardiology,ECG Test,700,2025-01-10,New York
 ```
 
+---
+
 ## ⚙️ Technologies Used
 
 - **Python**
@@ -93,5 +97,25 @@ visit_id,patient_id,patient_name,doctor_id,doctor_name,department,diagnosis,cost
 - **Healthcare KPI Analytics Queries**
 
 ---
+
+## 🚀 Pipeline Jobs
+
 ---
+
+### 🥉 Bronze Layer: Raw Data Ingestion
+
+**File:** `jobs/bronze_ingestion.py`
+
+Responsibilities:
+
+- Read raw CSV patient visit data
+- Apply schema validation
+- Store raw records in Parquet format
+
+Output:
+
+```
+output/bronze/
+```
+
 ---
