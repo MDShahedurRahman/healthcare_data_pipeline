@@ -162,3 +162,23 @@ output/gold/
 ```
 
 ---
+
+### 📊 Business Queries & Healthcare KPIs
+
+**File:** `jobs/business_queries.py`
+
+Key business insights generated:
+
+- Revenue by Department
+- Most Common Diagnoses
+- City-wise Treatment Costs
+
+Example:
+
+```
+Cardiology → $1200
+Neurology  → $300
+Orthopedics → $400
+```
+
+---
