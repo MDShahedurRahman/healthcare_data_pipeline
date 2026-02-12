@@ -83,5 +83,15 @@ visit_id,patient_id,patient_name,doctor_id,doctor_name,department,diagnosis,cost
 203,P003,Sarah Lee,D101,Dr. Lee,Cardiology,ECG Test,700,2025-01-10,New York
 ```
 
+## ⚙️ Technologies Used
+
+- **Python**
+- **PySpark**
+- **Parquet Storage Format**
+- **Medallion Data Lake Architecture**
+- **Star Schema Modeling**
+- **Healthcare KPI Analytics Queries**
+
+---
 ---
 ---
