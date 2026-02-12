@@ -21,3 +21,19 @@ This pipeline performs:
 - KPI queries for hospital insights
 
 ---
+
+## 🏗 Pipeline Architecture (Medallion Design)
+
+```
+Raw CSV Patient Visit Data
+        ↓
+Bronze Layer (Raw Parquet)
+        ↓
+Silver Layer (Clean + Standardized Parquet)
+        ↓
+Gold Layer (Star Schema Tables)
+        ↓
+Business Queries + Healthcare KPI Reports
+```
+
+---
