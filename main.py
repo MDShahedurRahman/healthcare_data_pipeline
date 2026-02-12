@@ -13,6 +13,9 @@ def main():
     print("Running Bronze Layer...")
     bronze_df = ingest_patient_visits(spark, RAW_FILE, BRONZE_PATH)
 
+    print("Running Silver Layer...")
+    silver_df = clean_visit_data(bronze_df, SILVER_PATH)
+
     spark.stop()
 
 
